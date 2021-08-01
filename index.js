@@ -28,7 +28,7 @@ const logger = winston.createLogger({
 });
 
 // routes
-app.use("/api/books/add", booksRoute);
+app.use("/api/books/", booksRoute);
 
 // connect to mongoDB
 mongoose
